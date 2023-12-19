@@ -94,8 +94,8 @@ export const SignInUpForm = () => {
     }
 
     return signInUpMode === SignInUpMode.SignIn
-      ? 'Sign in to Twenty'
-      : 'Sign up to Twenty';
+      ? 'Sign in to Furation CRM'
+      : 'Sign up to Furation CRM';
   }, [signInUpMode, workspace?.displayName]);
 
   const theme = useTheme();
@@ -227,8 +227,8 @@ export const SignInUpForm = () => {
         </StyledForm>
       </StyledContentContainer>
       <StyledFooterNote>
-        By using Twenty, you agree to the Terms of Service and Data Processing
-        Agreement.
+        By using Furation CRM, you agree to the Terms of Service and Data
+        Processing Agreement.
       </StyledFooterNote>
     </>
   );

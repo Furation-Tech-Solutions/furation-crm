@@ -49,7 +49,7 @@ export const settingsFieldMetadataTypes: Partial<
   [FieldMetadataType.Link]: {
     label: 'Link',
     Icon: IconLink,
-    defaultValue: { url: 'www.twenty.com', label: '' },
+    defaultValue: { url: 'furation.tech', label: '' },
   },
   [FieldMetadataType.Boolean]: {
     label: 'True/False',

@@ -1,4 +1,4 @@
-echo "Generating env-config.js file from runtime environment variables..."
+ echo "Generating env-config.js file from runtime environment variables..."
 
 BASE_FILENAME="build/env-config.js"
 mkdir -p build
